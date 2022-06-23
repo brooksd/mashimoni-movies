@@ -1,0 +1,40 @@
+/*=======================================================
+  Global font Import
+=========================================================*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+/*=======================================================
+  Global Color Variables
+=========================================================*/
+* {
+  box-sizing: border-box;
+}
+:root {
+  --primary: #0a0938;
+  --secondary: #1a205a;
+  --whiteish: #f1f1ff;
+  --blackish: #0e0e0c;
+  --red: #ff6b6b;
+  --yellow: #ffe66d;
+  --green: #99ffc9;
+  --img-width: 100%;
+}
+/*=======================================================
+  Custom Scroll Bar
+=========================================================*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--secondary);
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
