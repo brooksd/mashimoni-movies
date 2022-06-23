@@ -38,3 +38,41 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+body {
+  background-color: var(--blackish);
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*=======================================================
+  Header Navigation Section
+=========================================================*/
+
+header {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--blackish);
+  width: 100%;
+}
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: var(--whiteish);
+}
+h2 {
+  font-size: 1.5rem;
+  color: var(--whiteish);
+  padding: 1rem;
+  opacity: 0.8;
+  letter-spacing: 1.5px;
+}
+h3 {
+  margin: 0;
+  font-size: 0.9rem;
+}
