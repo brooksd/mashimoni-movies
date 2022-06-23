@@ -10,8 +10,8 @@
   box-sizing: border-box;
 }
 :root {
-  --primary: #0a0938;
-  --secondary: #1a205a;
+  --primary: #343434;
+  --secondary: #121212;
   --whiteish: #f1f1ff;
   --blackish: #0e0e0c;
   --red: #ff6b6b;
@@ -75,4 +75,29 @@ h2 {
 h3 {
   margin: 0;
   font-size: 0.9rem;
+}
+
+/*=======================================================
+  Search Bar Styling Section
+=========================================================*/
+
+.search__bar {
+  background-color: var(--whiteish);
+  border: 2px solid var(--blackish);
+  border-radius: 50px;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.3rem 1rem;
+  color: #f1f1f1;
+  width: 25rem;
+}
+
+.search__bar::placeholder {
+  color: var(--blackish);
+}
+
+.search__bar:focus {
+  outline: none;
+  color: var(--blackish);
+  background-color: var(--whiteish);
 }
