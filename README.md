@@ -11,4 +11,4 @@
  - [Authors Info](#Authors-Info)
 
  ## Description
- <p>This project is a simple responsive webpage that leverage the TMDB API that is publicly available to show the trending movies and series world wide</p>
+ <p>This project is a simple responsive webpage that leverage the TMDB API that is publicly available to show the trending movies and series worldwide</p>

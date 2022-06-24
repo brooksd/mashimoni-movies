@@ -249,3 +249,35 @@ img {
 .movie__info span.orange {
   color: orange;
 }
+
+/*=======================================================
+  Movie Overview Section
+=========================================================*/
+
+.overview {
+  background-color: var(--primary);
+  color: var(--whiteish);
+  opacity: 0.95;
+  padding: 0.5rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  max-height: 100%;
+  transform: translateY(100%);
+  transition: transform 0.5s;
+}
+
+.movie:hover .overview {
+  transform: translateY(0);
+}
+
+footer {
+  margin-top: 2rem;
+  color: #f1f1f1;
+  opacity: 0.5;
+}
+footer span {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
