@@ -33,3 +33,11 @@ As a user of the website,you will be able to :
 * Open the index file from the zipped file with any browser.
  ****
 [Go Back to the top](#Mashimoni-Movies-Pages)
+
+### Live Link
+- Click this link to view the live application 
+### Technology  Used
+* HTML - The Makrup language was used in building the base structure of the webpage.
+* CSS - which was used to style the HTML structure to achieve the visual result with a big emphasis on { display:flex; }.
+* JavaScript - Minimal implementation on the Navigation for inter-activity
+[Go Back to the top](#Mashimoni-Movies-Pages)
