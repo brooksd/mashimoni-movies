@@ -58,6 +58,24 @@ function showMovies(movies){
         const movieOverview = overview.slice(0,400) 
         const movieElement = document.createElement('div')
         movieElement.classList.add('movie')
+        movieElement.innerHTML =
+        `
+        <div class="img__container">
+        <img src="${IMG_PATH + poster_path}" alt="${movieTitle}">
+        <div class="year">${date}</div>
+        </div>    
+        
+            <div class="movie__info">
+                <h3>${movieTitle}</h3>
+                <span class="${getClassByRate(vote_average)}">${vote_average}</span>
+            </div>
+            <div class="overview">
+                <h3>Overview</h3>
+            <small>${movieOverview}</small>
+            </div>
+        
+        `
+        main.appendChild(movieElement)
         
     });
 }
