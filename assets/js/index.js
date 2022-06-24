@@ -21,3 +21,25 @@ async function getMovies(url){
     showMovies(data.results)
     
 }
+/*=========================================
+    Hero Banner Function
+===========================================*/
+
+function truncate(str, n) {
+  return str?.length > n ? str.substr(0, n - 1) + "..." : str;
+}
+
+fetch(API_URL)
+  .then((res) => res.json())
+  .then((data) => {
+    // every refresh the movie will be change
+    const setMovie =
+      data.results[Math.floor(Math.random() * data.results.length - 1)];
+    console.log(setMovie);
+    var banner = document.getElementById("banner");
+    var banner_title = document.getElementById("banner__title");
+    var banner__desc = document.getElementById("banner__description");
+    banner.style.backgroundImage =  "url(" + IMG_PATH + setMovie.backdrop_path + ")";
+    banner__desc.innerText = truncate(setMovie.overview, 400);
+    banner_title.innerText = setMovie.original_title;
+  });
