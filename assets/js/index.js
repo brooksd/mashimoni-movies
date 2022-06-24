@@ -98,3 +98,23 @@ function getClassByRate(vote){
         return 'red'
     }
 }
+
+/*=========================================
+    Search Bar Function
+===========================================*/
+
+form.addEventListener('submit', (event) => {
+    event.preventDefault()
+    const searchTerm = search.value
+
+    if(searchTerm && searchTerm !== ''){
+        getMovies(SEARCH_API + searchTerm)
+
+        search.value = ''
+        movieHeader.innerText = "Search Results for : " + searchTerm
+
+    }  
+    else{
+        window.location.reload()
+    }
+})
