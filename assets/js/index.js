@@ -44,7 +44,7 @@ fetch(API_URL)
     banner_title.innerText = setMovie.original_title;
   });
 
-  /*=========================================
+/*=========================================
     Render Movies Function
 ===========================================*/
 
@@ -78,4 +78,23 @@ function showMovies(movies){
         main.appendChild(movieElement)
         
     });
+}
+
+/*=========================================
+    Vote Rate Function
+===========================================*/
+
+function getClassByRate(vote){
+    if(vote>=8){
+        return 'green'
+    }
+    if(vote>=7){
+        return 'yellow'
+    }
+    if(vote>=5){
+        return 'orange'
+    }
+    else{
+        return 'red'
+    }
 }
