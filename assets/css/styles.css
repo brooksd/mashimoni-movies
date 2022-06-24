@@ -141,7 +141,7 @@ img {
 }
 #banner__contents {
   margin-left: 70px;
-  padding-top: 20rem;
+  padding-top: 19rem;
   height: 190px;
 
 }
@@ -153,7 +153,6 @@ img {
 #banner__description {
   width: 50rem;
   line-height: 1.5;
-  padding-top: 1rem;
   font-size: .9rem;
   max-width: 560px;
   height: 80px;
@@ -166,7 +165,7 @@ img {
   font-weight: 700;
   border-radius: .2vw;
   padding: .5rem 2rem .5rem 2rem;
-  margin: 1rem 1rem 1rem 0;
+  margin: 0 1rem 1rem 0;
   background-color: rgba(51,51,51,.5);
 }
 #banner__button:hover {
@@ -183,7 +182,7 @@ img {
   );
 }
 #banner__fadeBottom {
-  margin-top: 14.5rem;
+  margin-top: 15.5rem;
   position: relative;
   height: 6.4rem;
   background: linear-gradient(to bottom,
