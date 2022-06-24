@@ -281,3 +281,21 @@ footer span {
   font-size: 0.9rem;
   font-weight: bold;
 }
+
+/*=======================================================
+  Responsive Media Queries Section
+=========================================================*/
+
+@media (max-width: 485px) {
+  .movie {
+    transform: scale(1.15);
+    margin: 2.5rem auto;
+  }
+  .form {
+    width: 100%;
+    margin: auto;
+  }
+  .search {
+    width: 100%;
+  }
+}
