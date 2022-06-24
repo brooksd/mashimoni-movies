@@ -126,3 +126,69 @@ img {
   height: 22.5rem;
   align-items: center;
 }
+
+/*=======================================================
+  Background Banner Section
+=========================================================*/
+
+#banner {
+  color: white;
+  object-fit: contain;
+  height: 750px;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+}
+#banner__contents {
+  margin-left: 70px;
+  padding-top: 20rem;
+  height: 190px;
+
+}
+#banner__title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
+}
+#banner__description {
+  width: 50rem;
+  line-height: 1.5;
+  padding-top: 1rem;
+  font-size: .9rem;
+  max-width: 560px;
+  height: 80px;
+}
+#banner__button {
+  cursor: pointer;
+  color: white;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: .2vw;
+  padding: .5rem 2rem .5rem 2rem;
+  margin: 1rem 1rem 1rem 0;
+  background-color: rgba(51,51,51,.5);
+}
+#banner__button:hover {
+  color: black;
+  background-color: var(--whiteish);
+  transition: all .3s;
+}
+#banner__fadeUp {
+  height: 6.4rem;
+  background: linear-gradient(to top,
+    transparent,
+    rgba(40,40,40, .71),
+    black
+  );
+}
+#banner__fadeBottom {
+  margin-top: 14.5rem;
+  position: relative;
+  height: 6.4rem;
+  background: linear-gradient(to bottom,
+    transparent,
+    rgba(37,37,37, .71),
+    black
+  );
+}
