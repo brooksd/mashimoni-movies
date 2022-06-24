@@ -230,3 +230,22 @@ img {
   font-weight: bold;
   text-align: center;
 }
+
+/*=======================================================
+  Voter Color Section
+=========================================================*/
+
+.movie__info span.green {
+  color: var(--green);
+}
+
+.movie__info span.yellow {
+  color: var(--yellow);
+}
+
+.movie__info span.red {
+  color: var(--red);
+}
+.movie__info span.orange {
+  color: orange;
+}
