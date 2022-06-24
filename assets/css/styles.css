@@ -101,3 +101,28 @@ h3 {
   color: var(--blackish);
   background-color: var(--whiteish);
 }
+/*=======================================================
+  Main Body Section with the Card Styling
+=========================================================*/
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie {
+  width: 16rem;
+  margin: 1rem;
+  background-color: var(--secondary);
+  color: #f1f1f1;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 0.2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+img {
+  height: 22.5rem;
+  align-items: center;
+}
