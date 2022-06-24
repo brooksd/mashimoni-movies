@@ -43,3 +43,21 @@ fetch(API_URL)
     banner__desc.innerText = truncate(setMovie.overview, 400);
     banner_title.innerText = setMovie.original_title;
   });
+
+  /*=========================================
+    Render Movies Function
+===========================================*/
+
+function showMovies(movies){
+    main.innerHTML = ''
+
+    movies.forEach(movie => {
+        const {title, poster_path, vote_average, overview, release_date} =  movie
+        const date = release_date.slice(0,4)
+        const movieTitle = title.slice(0,35)
+        const movieOverview = overview.slice(0,400) 
+        const movieElement = document.createElement('div')
+        movieElement.classList.add('movie')
+        
+    });
+}
