@@ -10,7 +10,6 @@ const form = document.querySelector('.form')
 const search = document.querySelector('.search__bar')
 const main = document.querySelector('.main')
 const movieHeader = document.getElementById('movie__header')
-const notFound = document.querySelector('.not-found')
 //Get initial movies
 getMovies(API_URL)
 
