@@ -192,3 +192,41 @@ img {
     black
   );
 }
+
+/*=======================================================
+  Div Container Styling Section
+=========================================================*/
+
+.img__container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.year {
+  position: absolute;
+  top: 21.25rem;
+  right: 0.15rem;
+  background-color: var(--primary);
+  padding: 0 0.25rem;
+  border-radius: 0.2rem;
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
+.movie__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0;
+  padding: 0.6rem 0.6rem;
+  letter-spacing: 0.5px;
+}
+
+.movie__info span {
+  background-color: var(--primary);
+  padding: 0.1rem 0.5rem;
+  border-radius: 0.4rem;
+  font-weight: bold;
+  text-align: center;
+}
